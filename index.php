@@ -18,7 +18,7 @@
 			<?php if(isset($_COOKIE["user"]))
 			{
 				setcookie ("User", "", time() - 3600);
-				echo("No user named ".$_COOKIE["user"]); 
+				echo("No user named ".$_COOKIE["user"] . " or wrong password."); 
 			}?>
 			</div>
 		</div>
